@@ -1,0 +1,21 @@
+# Token caches and secrets
+~/.cache/mcopilot/
+~/.config/mcopilot/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# OpenCode binary (download separately)
+bin/
+
+# macOS
+.DS_Store
+*.app/
+
+# Logs
+*.log
+egress.log

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled_providers": ["mcopilot"],
+  "model": "mcopilot/m365-copilot",
+  "provider": {
+    "mcopilot": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "M365 Copilot",
+      "options": {
+        "baseURL": "http://127.0.0.1:8765/v1",
+        "apiKey": "not-needed"
+      },
+      "models": {
+        "m365-copilot": { "name": "M365 Copilot (grounded)" }
+      }
+    }
+  }
+}
